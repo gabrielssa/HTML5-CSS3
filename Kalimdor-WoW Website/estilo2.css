@@ -1,0 +1,14 @@
+label{
+	display: block;
+}
+input[type="submit"]{
+	display: block;
+	padding: 5px 15px;
+	background: black;
+	color: white;
+	border: 0px;
+}
+
+input[type="submit"]:hover{
+	background: orange;
+}
