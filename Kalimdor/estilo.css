@@ -1,0 +1,45 @@
+body{
+	font-family: helvetica, sans-serif;
+}
+a:link, a:visited{
+	color: blue;
+	text-decoration: none;
+}
+a:hover{
+	color: #D2691E;
+	text-decoration: underline;
+}
+
+#content{
+	float: left;
+	width: 620px;
+}
+
+/*Barra lateral*/
+#sidebar{
+	float: right;
+	width: 300px;
+}
+
+#sidebar ul{
+	list-style: none;
+}
+
+#wrap{
+	width: 920px;
+	margin: auto;
+	padding: 10px 20px;
+}
+
+header nav ul{
+	list-style: none;
+	padding-left: 0px;
+}
+header nav ul li{
+	display: inline;
+	margin-right: 10px;
+}
+
+footer{
+	clear: both;
+}
